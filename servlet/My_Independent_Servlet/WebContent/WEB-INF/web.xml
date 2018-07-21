@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <servlet>
+  <servlet-name>SaveServlet</servlet-name>
+  <servlet-class>mypack.SaveServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>SaveServlet</servlet-name>
+  <url-pattern>/save</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>UpdateServlet</servlet-name>
+  <servlet-class>mypack.UpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>UpdateServlet</servlet-name>
+  <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>DeleteServlet</servlet-name>
+  <servlet-class>mypack.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>DeleteServlet</servlet-name>
+  <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>SearchServlet</servlet-name>
+  <servlet-class>mypack.SearchServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>SearchServlet</servlet-name>
+  <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>SearchAllServlet</servlet-name>
+  <servlet-class>mypack.SearchAllServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>SearchAllServlet</servlet-name>
+  <url-pattern>/search_all</url-pattern>
+  </servlet-mapping>
+</web-app>
